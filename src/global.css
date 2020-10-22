@@ -1,0 +1,12 @@
+*{margin: 0;padding: 0;}
+*{box-sizing: border-box;}
+body>.page{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+body>.page>section{
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid grey;
+}
